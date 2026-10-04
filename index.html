@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лабораторна робота №2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Лабораторна робота №2</h1>
+  <p class="student-info">Шликов Денис, 19</p>
+
+  <section class="task-block">
+    <p class="task-title">1. Привітання за іменем (userName через prompt)</p>
+    <button onclick="task1Greeting()">Ввести ім'я</button>
+    <div class="result-area" id="box1"></div>
+  </section>
+
+  <section class="task-block">
+    <p class="task-title">2. Рік народження за віком</p>
+    <button onclick="task2BirthYear()">Ввести вік</button>
+    <div class="result-area" id="box2"></div>
+  </section>
+
+  <section class="task-block">
+    <p class="task-title">3. Повне ім'я (конкатенація і шаблонний рядок)</p>
+    <button onclick="task3FullName()">Ввести ім'я та прізвище</button>
+    <div class="result-area" id="box3"></div>
+  </section>
+
+  <section class="task-block">
+    <p class="task-title">1. Глобальна та блочна змінна userName</p>
+    <button onclick="task4ScopeDemo()">Показати область видимості</button>
+    <div class="result-area" id="box4"></div>
+  </section>
+
+  <section class="task-block">
+    <p class="task-title">2. Підтвердження віку через confirm</p>
+    <button onclick="task5ConfirmAge()">Ввести ім'я та вік</button>
+    <div class="result-area" id="box5"></div>
+  </section>
+
+  <section class="task-block">
+    <p class="task-title">3. Перевірка числа на парність</p>
+    <button onclick="task6EvenOdd()">Ввести число</button>
+    <div class="result-area" id="box6"></div>
+  </section>
+
+  <section class="task-block">
+    <p class="task-title">1. Блочна область видимості всередині функції calculate()</p>
+    <button onclick="task7ScopeFunction()">Виконати calculate()</button>
+    <div class="result-area" id="box7"></div>
+  </section>
+
+  <section class="task-block">
+    <p class="task-title">2. Вгадай секретне число (залишок від номера в журналі)</p>
+    <button onclick="task8SecretNumber()">Вгадати число</button>
+    <div class="result-area" id="box8"></div>
+  </section>
+
+  <section class="task-block">
+    <p class="task-title">3. Сума двох чисел з привітанням</p>
+    <button onclick="task9Sum()">Ввести ім'я та числа</button>
+    <div class="result-area" id="box9"></div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
